@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>飞驰人生模拟器</title>
+		<style>
+			body { margin: 0; }
+            #info {
+                position: absolute;
+                top: 10px;
+                width: 100%;
+                text-align: center;
+                z-index: 100;
+                display:block;
+                color: #FFF;
+            }
+		</style>
+	</head>
+	<body>
+		<script type="module" src="/racing-car.js"></script>
+        <div id="info">飞驰人生模拟器</div>
+        <div style="position: absolute; margin-left: 26px;margin-top:22px ; color: white;">
+            <div id="speed">速度：0</div>
+            <div id="points">得分：0</div>
+            <div>W:加速</div>
+            <div>S:减速</div>
+            <div>A:左转</div>
+            <div>D:右转</div>
+            <div>空格:停止</div>
+        </div>
+	</body>
+</html>
